@@ -2,11 +2,13 @@ let hamburger = document.querySelector('.hamburger');
 let navMenu = document.querySelector('.header-nav .nav-menu');
 let headerNav = document.querySelector('.header-nav');
 
+// hamburger menu for mobile view
 hamburger.addEventListener('click', ()=> {
     hamburger.classList.toggle('active');
     navMenu.classList.toggle('active');
 });
 
+// setting nav menu top on page scroll
 function toggleHeaderNavClass() {
     const screenWidth = window.innerWidth;
     if(screenWidth >= 1200) {

@@ -9,7 +9,7 @@
         left: 0;
         right: 0;
         z-index: 10;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        @include box-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
     }
     .header-logo {
         @include respond(xl) {
@@ -25,7 +25,7 @@
             height: 30px;
             @include respond-max(lg) {
                 position: absolute;
-                transform: translateY(35px);
+                @include transform(translateY(35px));
             }
             @include respond(sm) {
                 height: 40px;
@@ -51,11 +51,11 @@
             right: 0;
             background-color: #fff;
             z-index: 10;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            @include box-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
         }
         .hamburger {
-            display: flex;
-            flex-direction: column;
+            @include flexbox;
+            @include flex-direction(column);
             gap: 5px;
             @include respond(xl) {
                 display: none;
@@ -64,17 +64,17 @@
                 width: 25px;
                 height: 3px;
                 background: black;
-                transition: all 0.3s ease-in-out;
+                @include transition(all 0.3s ease-in-out);
             }
             &.active {
                 span:nth-child(1) {
-                    transform: rotate(45deg) translateY(11px);
+                    @include transform(rotate(45deg) translateY(11px));
                 }
                 span:nth-child(2) {
                     opacity: 0;
                 }
                 span:nth-child(3) {
-                    transform: rotate(-45deg) translateY(-11px);
+                    @include transform(rotate(-45deg) translateY(-11px));
                 }
             }
         }
@@ -89,7 +89,7 @@
                         color: $navColor;
                         font-weight: 700;
                         text-transform: uppercase;
-                        transition: all 0.2s ease-in-out;
+                        @include transition(all 0.2s ease-in-out);
                         &:hover {
                             color: #979797;
                         }
@@ -105,10 +105,10 @@
                 z-index: 9;
                 transform: translatex(-100%);
                 height: calc(100vh - 70px);
-                transition: all 0.3s ease-in-out;
+                @include transition(all 0.3s ease-in-out);
                 ul {
-                    flex-direction: column;
-                    align-items: center;
+                    @include flex-direction(column);
+                    @include align-items(center);
                     padding: 2rem 0;
                 }
             }

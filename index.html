@@ -11,25 +11,26 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+    <!-- header -->
     <header class="header">
         <div class="header-logo d-flex align-items-center justify-content-center">
             <img src="./images/logo.svg" class="logo" alt="logo">
         </div>
         <div class="header-nav d-flex">
             <div class="container d-flex align-items-center">
-                <button class="hamburger me-sm-4 me-3">
+                <button class="hamburger me-sm-4 me-3" aria-label="Toggle navigation menu">
                     <span></span>
                     <span></span>
                     <span></span>
                 </button>
                 <div class="left-menu me-auto">
-                    <button class="search-btn">
+                    <button class="search-btn" aria-label="Search">
                         <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
                             <path d="M17.1466 18.5115C14.6183 20.4745 11.7872 21.1637 8.66956 20.4745C6.27904 19.9506 4.35119 18.6603 2.90806 16.6808C-0.0773376 12.5893 0.495514 6.98701 4.24104 3.52416C7.79928 0.232248 13.4837 0.132994 17.2016 3.23743C21.195 6.57345 22.0653 12.7492 18.5401 17.1219C18.6062 17.1936 18.6778 17.2708 18.7494 17.3425C20.3743 18.9691 22.0047 20.5958 23.6241 22.2335C23.7894 22.3989 23.9215 22.6305 23.9766 22.8566C24.0758 23.2811 23.8499 23.6726 23.4809 23.8656C23.1008 24.0641 22.6657 24.0035 22.3407 23.6892C21.8615 23.2205 21.3933 22.7463 20.9251 22.2721C19.7244 21.0755 18.5291 19.8734 17.3283 18.6769C17.2732 18.6217 17.2127 18.5721 17.1466 18.5115ZM10.8893 2.90107C6.53792 2.89004 2.96866 6.44663 2.94662 10.8248C2.92459 15.1975 6.48834 18.7872 10.8618 18.7982C15.2187 18.8092 18.799 15.2526 18.821 10.891C18.8431 6.49625 15.2848 2.9121 10.8893 2.90107Z" fill="currentColor" stroke="currentColor" stroke-width="0.5" stroke-miterlimit="10"/>
                         </svg>
                     </button>
                 </div>
-                <nav class="nav-menu">
+                <nav class="nav-menu" aria-label="navigation menu">
                     <ul class="list-unstyled m-0 d-flex">
                         <li>
                             <a href="#" class="active">Home</a>
@@ -74,7 +75,10 @@
             </div>
         </div>
     </header>
+    <!-- header ends -->
+     <!-- main -->
     <main class="main">
+        <!-- banner section -->
         <section class="section section-banner position-relative">
             <div class="banner-container position-absolute top-0 start-0 w-100 h-100 d-flex">
                 <div class="container align-self-center">
@@ -105,6 +109,8 @@
                     decoding="async">
             </picture>
         </section>
+        <!-- banner section ends -->
+         <!-- product section -->
         <section class="section section-products">
             <div class="container">
                 <h1 class="section-title text-center">Products</h1>
@@ -185,6 +191,8 @@
                 </div>
             </div>
         </section>
+        <!-- product section ends -->
+        <!-- projects section -->
         <section class="section section-projects pt-0">
             <div class="container text-center">
                 <h1 class="section-title text-center">Projects</h1>
@@ -205,8 +213,10 @@
                                     loading="lazy" 
                                     decoding="async">
                             </picture>
-                            <figcaption class="h4 mb-0 mt-4">Kingfom Tower</figcaption>
-                            <p class="text-black-50">Marble Flooring</p>
+                            <figcaption class="mt-4">
+                                <h4 class="mb-0">Kingfom Tower</h4>
+                                <p class="text-black-50">Marble Flooring</p>
+                            </figcaption>
                         </figure>
                         
                     </div>
@@ -221,8 +231,10 @@
                                     loading="lazy" 
                                     decoding="async">
                             </picture>
-                            <figcaption class="h4 mb-0 mt-4">Dubai Mall</figcaption>
-                            <p class="text-black-50">Wood Flooring</p>
+                            <figcaption class="mt-4">
+                                <h4 class="mb-0">Dubai Mall</h4>
+                                <p class="text-black-50">Wood Flooring</p>
+                            </figcaption>
                         </figure>
                     </div>
                     <div class="col-xl-3 col-sm-6">
@@ -236,8 +248,10 @@
                                     loading="lazy" 
                                     decoding="async">
                             </picture>
-                            <figcaption class="h4 mb-0 mt-4">King Roard Offices</figcaption>
-                            <p class="text-black-50">Outdoor Flooring</p>
+                            <figcaption class="mt-4">
+                                <h4 class="mb-0">King Roard Offices</h4>
+                                <p class="text-black-50">Outdoor Flooring</p>
+                            </figcaption>
                         </figure>
                     </div>
                     <div class="col-xl-3 col-sm-6">
@@ -251,88 +265,94 @@
                                     loading="lazy" 
                                     decoding="async">
                             </picture>
-                            <figcaption class="h4 mb-0 mt-4">Beach Tower Alupang</figcaption>
-                            <p class="text-black-50">Wood Flooring</p>
+                            <figcaption class="mt-4">
+                                <h4 class="mb-0">Beach Tower Alupang</h4>
+                                <p class="text-black-50">Wood Flooring</p>
+                            </figcaption>
                         </figure>
                     </div>
                 </div>
                 <button class="btn btn-app-primary text-uppercase mt-4">View All</button>
             </div>
         </section>
-        <footer class="footer">
-            <div class="container">
-                <div class="row row-gap-4">
-                    <div class="col-xl-4">
-                        <a href="#">
-                            <img src="./images/log-white.svg" alt="logo footer">
-                        </a>
-                        <ul class="list-unstyled d-flex align-items-center gap-4 mt-4">
-                            <li>
-                                <a href="#">
-                                    <img src="./images/fb.svg" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="./images/twitter.svg" alt="">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <img src="./images/instagram.svg" alt="">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-xl-2 col-md-4 col-6 footer-navs">
-                        <h6 class="mb-2">Products</h6>
-                        <ul class="footer-nav-menu list-unstyled">
-                            <li>
-                                <a href="#">Sand Stone</a>
-                            </li>
-                            <li>
-                                <a href="#">Stone</a>
-                            </li>
-                            <li>
-                                <a href="#">Cement</a>
-                            </li>
-                            <li>
-                                <a href="#">Soft Stone</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-xl-2 col-md-4 col-6 footer-navs">
-                        <h6 class="mb-2">Services</h6>
-                        <ul class="footer-nav-menu list-unstyled">
-                            <li>
-                                <a href="#">Measurement Service</a>
-                            </li>
-                            <li>
-                                <a href="#">Product Advice</a>
-                            </li>
-                            <li>
-                                <a href="#">Interior Design</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-xl-4 col-md-4 footer-navs">
-                        <h6 class="mb-2">Contact Information</h6>
-                        <ul class="footer-nav-menu list-unstyled">
-                            <li>
-                                <p class="mb-0">3181 Al Imam Saud Ibn Abdul Aziz Branch Rd,</p>
-                            </li>
-                            <li>
-                                <p class="mb-0">An Nuzhah, Riyadh 12474,</p>
-                            </li>
-                            <li>
-                                <p class="mb-0">Saudi Arabia</p>
-                            </li>
-                        </ul>
-                    </div>
+        <!-- projects section ends -->
+    </main>
+    <!-- main ends -->
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row row-gap-4">
+                <div class="col-xl-4">
+                    <a href="#">
+                        <img src="./images/log-white.svg" alt="logo footer">
+                    </a>
+                    <ul class="list-unstyled d-flex align-items-center gap-4 mt-4">
+                        <li>
+                            <a href="#">
+                                <img src="./images/fb.svg" alt="connect facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/twitter.svg" alt="connect twitter">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/instagram.svg" alt="connect instagram">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-2 col-md-4 col-6 footer-navs">
+                    <h6 class="mb-2">Products</h6>
+                    <ul class="footer-nav-menu list-unstyled">
+                        <li>
+                            <a href="#">Sand Stone</a>
+                        </li>
+                        <li>
+                            <a href="#">Stone</a>
+                        </li>
+                        <li>
+                            <a href="#">Cement</a>
+                        </li>
+                        <li>
+                            <a href="#">Soft Stone</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-2 col-md-4 col-6 footer-navs">
+                    <h6 class="mb-2">Services</h6>
+                    <ul class="footer-nav-menu list-unstyled">
+                        <li>
+                            <a href="#">Measurement Service</a>
+                        </li>
+                        <li>
+                            <a href="#">Product Advice</a>
+                        </li>
+                        <li>
+                            <a href="#">Interior Design</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-4 col-md-4 footer-navs">
+                    <h6 class="mb-2">Contact Information</h6>
+                    <ul class="footer-nav-menu list-unstyled">
+                        <li>
+                            <p class="mb-0">3181 Al Imam Saud Ibn Abdul Aziz Branch Rd,</p>
+                        </li>
+                        <li>
+                            <p class="mb-0">An Nuzhah, Riyadh 12474,</p>
+                        </li>
+                        <li>
+                            <p class="mb-0">Saudi Arabia</p>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </footer>
-    </main>
+        </div>
+    </footer>
+    <!-- footer ends -->
     <script src="./js/style.js"></script>
 </body>
 </html>

@@ -2,15 +2,20 @@
 
 .btn-app-white {
     background-color: #fff;
-    &:hover {
-        background-color: $primaryColor;
-        color: #fff;
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: $primaryColor !important;
+        color: #fff !important;
     }
 }
 .btn-app-primary {
     background-color: $primaryColor;
     color: #fff;
-    &:hover {
-        background-color: #979797;
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: #979797 !important;
+        border: none !important;
     }
 }
