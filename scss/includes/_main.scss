@@ -47,6 +47,12 @@
                         margin-bottom: 4rem;
                     }
                 }
+                button {
+                    min-width: 100%;
+                    @include respond(sm){
+                        min-width: 180px;
+                    }
+                }
             }
         }
         .section-title {
@@ -173,6 +179,12 @@
                 }
                 .h4, p {
                     font-weight: 600;
+                }
+            }
+            button {
+                min-width: 100%;
+                @include respond(sm){
+                    min-width: 180px;
                 }
             }
         }
