@@ -1,0 +1,16 @@
+@import './variable';
+
+.btn-app-white {
+    background-color: #fff;
+    &:hover {
+        background-color: $primaryColor;
+        color: #fff;
+    }
+}
+.btn-app-primary {
+    background-color: $primaryColor;
+    color: #fff;
+    &:hover {
+        background-color: #979797;
+    }
+}

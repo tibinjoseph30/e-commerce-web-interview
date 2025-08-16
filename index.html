@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce design | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.bundle.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-logo d-flex align-items-center justify-content-center">
+            <img src="./images/logo.svg" class="logo" alt="logo">
+        </div>
+        <div class="header-nav d-flex">
+            <div class="container d-flex align-items-center">
+                <button class="hamburger me-sm-4 me-3">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="left-menu me-auto">
+                    <button class="search-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                            <path d="M17.1466 18.5115C14.6183 20.4745 11.7872 21.1637 8.66956 20.4745C6.27904 19.9506 4.35119 18.6603 2.90806 16.6808C-0.0773376 12.5893 0.495514 6.98701 4.24104 3.52416C7.79928 0.232248 13.4837 0.132994 17.2016 3.23743C21.195 6.57345 22.0653 12.7492 18.5401 17.1219C18.6062 17.1936 18.6778 17.2708 18.7494 17.3425C20.3743 18.9691 22.0047 20.5958 23.6241 22.2335C23.7894 22.3989 23.9215 22.6305 23.9766 22.8566C24.0758 23.2811 23.8499 23.6726 23.4809 23.8656C23.1008 24.0641 22.6657 24.0035 22.3407 23.6892C21.8615 23.2205 21.3933 22.7463 20.9251 22.2721C19.7244 21.0755 18.5291 19.8734 17.3283 18.6769C17.2732 18.6217 17.2127 18.5721 17.1466 18.5115ZM10.8893 2.90107C6.53792 2.89004 2.96866 6.44663 2.94662 10.8248C2.92459 15.1975 6.48834 18.7872 10.8618 18.7982C15.2187 18.8092 18.799 15.2526 18.821 10.891C18.8431 6.49625 15.2848 2.9121 10.8893 2.90107Z" fill="currentColor" stroke="currentColor" stroke-width="0.5" stroke-miterlimit="10"/>
+                        </svg>
+                    </button>
+                </div>
+                <nav class="nav-menu">
+                    <ul class="list-unstyled m-0 d-flex">
+                        <li>
+                            <a href="#" class="active">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Spaces</a>
+                        </li>
+                        <li>
+                            <a href="#">Products & Services</a>
+                        </li>
+                        <li>
+                            <a href="#">Showrooms</a>
+                        </li>
+                        <li>
+                            <a href="#">Company</a>
+                        </li>
+                        <li>
+                            <a href="#">Media</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="right-menu d-flex gap-sm-4 gap-3 ms-auto">
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="22" viewBox="0 0 24 22" fill="none">
+                            <path d="M22.7742 5.31679C22.5065 6.13005 22.2388 6.94331 21.9757 7.75657C21.2741 9.93296 20.5817 12.114 19.8847 14.2904C19.7185 14.8079 19.5293 14.9511 18.9892 14.9511C15.6151 14.9511 12.2409 14.9511 8.8668 14.9465C8.67756 14.9465 8.59448 15.002 8.53909 15.1822C8.37292 15.6766 8.18829 16.1664 7.99904 16.7024C8.10982 16.7024 8.19752 16.7024 8.28522 16.7024C11.8348 16.7024 15.3889 16.7024 18.9385 16.7024C19.0308 16.7024 19.1231 16.7024 19.2154 16.7117C19.5339 16.7533 19.7555 17.0028 19.7462 17.2985C19.737 17.5989 19.5062 17.8438 19.1923 17.8669C18.9846 17.8807 18.7723 17.8715 18.5184 17.8715C18.9662 18.4398 19.1416 19.0405 18.9985 19.7106C18.8877 20.2373 18.6061 20.6671 18.163 20.9767C17.3645 21.5358 16.3352 21.5173 15.5228 20.7964C14.7335 20.0987 14.6689 19.0729 15.3566 17.89C13.8611 17.89 12.3702 17.89 10.8516 17.89C11.3224 18.523 11.4978 19.1977 11.2393 19.9508C11.087 20.3944 10.8101 20.7502 10.4269 21.009C9.60533 21.5635 8.53447 21.4665 7.80979 20.7641C7.19128 20.168 6.81739 19.0267 7.68978 17.8715C7.52822 17.8715 7.39437 17.8715 7.2559 17.8715C6.73431 17.8622 6.48044 17.5064 6.65122 17.012C6.86817 16.3975 7.08973 15.7829 7.31129 15.1729C7.33436 15.1083 7.35282 15.0436 7.38052 14.9511C7.26974 14.9511 7.17743 14.9511 7.08973 14.9511C6.69739 14.9419 6.42967 14.7201 6.36043 14.3412C6.1158 13.0243 5.87577 11.7073 5.63575 10.3904C5.21571 8.09851 4.79106 5.8066 4.37564 3.51006C4.35256 3.38068 4.29717 3.32061 4.17716 3.2744C3.2817 2.92784 2.38624 2.57204 1.49077 2.21624C1.11689 2.06837 0.936875 1.73568 1.01996 1.39374C1.12612 0.964004 1.54616 0.746827 1.98466 0.913175C2.54778 1.12573 3.10629 1.35215 3.66481 1.57395C4.15408 1.7634 4.63874 1.9621 5.12802 2.14693C5.43728 2.26245 5.60806 2.47962 5.66806 2.79846C6.08349 5.06265 6.49891 7.33146 6.91433 9.59565C7.14512 10.8571 7.37591 12.1186 7.60208 13.3801C7.62516 13.5141 7.68055 13.5603 7.82364 13.5603C11.3732 13.5557 14.9273 13.5557 18.4769 13.5603C18.5923 13.5603 18.6661 13.5418 18.7077 13.4078C19.5062 10.9033 20.3094 8.40348 21.1079 5.89901C21.1125 5.88515 21.1079 5.87129 21.1079 5.8297C20.9509 5.82046 20.794 5.8066 20.6371 5.79735C18.1584 5.69108 15.6797 5.58942 13.201 5.48314C11.664 5.41845 10.1269 5.34914 8.58986 5.27983C8.15136 5.26134 7.86056 4.96099 7.87441 4.54974C7.88826 4.15235 8.20213 3.87048 8.6314 3.88435C9.32377 3.90745 10.0208 3.94442 10.7131 3.97214C12.1948 4.03683 13.6718 4.10614 15.1535 4.16621C17.4614 4.26787 19.7693 4.36491 22.0772 4.46657C22.4465 4.48043 22.6496 4.69761 22.7742 5.02106C22.7742 5.1181 22.7742 5.21513 22.7742 5.31679ZM16.9629 18.3382C16.4506 18.3336 16.0259 18.7494 16.0213 19.2577C16.0167 19.766 16.4459 20.1911 16.9537 20.1911C17.4568 20.1911 17.8768 19.7799 17.8814 19.2762C17.8907 18.7679 17.4753 18.3428 16.9629 18.3382ZM10.1915 19.2623C10.1915 18.7448 9.77611 18.3382 9.25453 18.3382C8.74679 18.3428 8.34061 18.7494 8.33599 19.2577C8.33138 19.7706 8.74679 20.1911 9.26376 20.1957C9.77612 20.1957 10.1915 19.7799 10.1915 19.2623Z" fill="currentColor" stroke="currentColor" stroke-width="0.5" stroke-miterlimit="10"/>
+                        </svg>
+                    </button>
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="22" viewBox="0 0 25 22" fill="none">
+                            <path d="M1.20485 7.25932C1.27976 6.80935 1.32383 6.35496 1.4384 5.9138C2.04213 3.60216 3.395 1.91255 5.70414 1.18464C8.17193 0.403802 10.3224 1.03465 12.1028 2.91396C12.3143 3.13454 12.4994 3.37717 12.7065 3.62422C12.9092 3.386 13.0943 3.14777 13.3014 2.92279C14.2841 1.86402 15.4563 1.12729 16.9061 0.942009C19.1447 0.655259 21.0617 1.33905 22.5335 3.06396C24.0054 4.78886 24.4373 6.82699 24.0979 9.04158C23.882 10.4444 23.243 11.6664 22.4058 12.7914C21.3085 14.2692 19.9688 15.5133 18.5895 16.7176C16.9634 18.1337 15.3241 19.541 13.6892 20.9483C13.059 21.4909 12.3848 21.513 11.7811 20.9924C9.64819 19.1396 7.51091 17.2956 5.40448 15.4118C4.33364 14.4589 3.37738 13.3913 2.58857 12.1826C1.84823 11.04 1.35027 9.80919 1.23569 8.44161C1.23129 8.38867 1.21366 8.34015 1.20044 8.29162C1.20485 7.94752 1.20485 7.60342 1.20485 7.25932ZM12.7021 20.0086C12.7594 19.9645 12.8078 19.9292 12.8519 19.8895C14.6719 18.3146 16.5007 16.7529 18.3031 15.1648C19.5634 14.0531 20.762 12.8752 21.6919 11.4635C22.582 10.118 23.0183 8.65337 22.8156 7.02992C22.5952 5.27854 21.8461 3.82715 20.2949 2.91396C18.8495 2.06254 17.3204 1.95666 15.7868 2.6978C14.879 3.13454 14.2092 3.8448 13.6451 4.66975C13.5658 4.78886 13.4909 4.91239 13.4072 5.02709C13.037 5.53441 12.376 5.53 12.0014 5.0315C11.6753 4.59476 11.3756 4.13155 11.0011 3.73451C9.79802 2.45958 8.30854 1.96548 6.59431 2.33605C4.74347 2.7375 3.52721 3.91097 2.91467 5.67558C2.20077 7.72694 2.54009 9.65919 3.7211 11.4591C4.45263 12.5752 5.3516 13.5546 6.33872 14.4413C7.96922 15.9103 9.63497 17.3441 11.2831 18.7867C11.7546 19.1969 12.2261 19.5984 12.7021 20.0086Z" fill="currentColor" stroke="currentColor" stroke-width="0.5" stroke-miterlimit="10"/>
+                        </svg>
+                    </button>
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="22" viewBox="0 0 19 22" fill="none">
+                            <path d="M13.485 10.7345C14.7052 11.4291 15.6384 12.3824 16.3466 13.5657C17.1027 14.8352 17.5573 16.2149 17.7631 17.6664C17.897 18.6149 17.9401 19.5778 17.9975 20.5359C18.031 21.0772 17.72 21.3694 17.1745 21.3694C11.8723 21.3694 6.57019 21.3694 1.26806 21.3694C0.712958 21.3694 0.421054 21.082 0.425839 20.5215C0.440195 18.5909 0.684247 16.7035 1.4164 14.9023C2.12463 13.1633 3.2109 11.7405 4.85705 10.7824C4.88097 10.768 4.9049 10.7441 4.92883 10.7249C2.4931 8.15722 3.03862 4.23379 5.44086 2.23136C7.72345 0.319946 11.0636 0.410966 13.2314 2.45172C15.447 4.53559 15.8106 8.19554 13.485 10.7345ZM16.5189 19.8988C16.428 17.9682 16.1265 16.1047 15.1551 14.4136C14.5043 13.2783 13.6046 12.4064 12.4131 11.8363C12.2695 11.7645 12.1642 11.7693 12.0207 11.8459C10.14 12.8423 8.25463 12.828 6.37878 11.8315C6.25915 11.7693 6.16344 11.7549 6.04381 11.8172C5.11067 12.2627 4.33066 12.895 3.71814 13.7286C2.82807 14.9358 2.35911 16.3107 2.12463 17.7766C2.01457 18.4712 1.95714 19.1802 1.87101 19.8988C6.77596 19.8988 11.6331 19.8988 16.5189 19.8988ZM13.6046 6.72007C13.6046 4.29607 11.6378 2.31759 9.21648 2.31759C6.7951 2.31759 4.81876 4.28649 4.81876 6.71048C4.81876 9.13448 6.78553 11.113 9.2069 11.113C11.6283 11.1178 13.6046 9.14406 13.6046 6.72007Z" fill="currentColor" stroke="currentColor" stroke-width="0.5" stroke-miterlimit="10"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="section section-banner position-relative">
+            <div class="banner-container position-absolute top-0 start-0 w-100 h-100 d-flex">
+                <div class="container align-self-center">
+                    <div class="row">
+                        <div class="col-xxl-6 col-lg-8 offset-xxl-6 offset-lg-4">
+                            <article class="banner-content">
+                                <h2 class="text-white">New Generation Ceramic Tile</h2>
+                                <p>Penatibus sem vitae mollis luctus mi tellus. Maximus eu eleifend aptent dapibus metus maecenas consequat. Elementum interdum a semper. Netus nullam eros nisi volutpat nibh ex ultricies. Pharetra sagittis sit aliquet at. Magna nam platea justo.</p>
+                                <button class="btn btn-app-white text-uppercase">Learn More</button>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <picture>
+                <source type="image/avif" media="(max-width: 575px)" srcset="./images/banner/banner-sm.avif">
+                <source type="image/avif" media="(max-width: 1199px)" srcset="./images/banner/banner-md.avif">
+                <source type="image/avif" media="(min-width: 1200px)" srcset="./images/banner/banner.avif">
+
+                <source type="image/webp" media="(max-width: 575px)" srcset="./images/banner/banner-sm.webp">
+                <source type="image/webp" media="(max-width: 1199px)" srcset="./images/banner/banner-md.webp">
+                <source type="image/webp" media="(min-width: 1200px)" srcset="./images/banner/banner.webp">
+
+                <img src="./images/banner/banner.jpg" 
+                    alt="Homepage banner" 
+                    class="banner-image w-100" 
+                    loading="lazy" 
+                    decoding="async">
+            </picture>
+        </section>
+        <section class="section section-products">
+            <div class="container">
+                <h1 class="section-title text-center">Products</h1>
+                <div class="row">
+                    <div class="col-xl-7 col-md-10 mx-auto">
+                        <p class="section-sub-head text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                    </div>
+                </div>
+                <div class="products-list mt-4">
+                    <div class="product position-relative">
+                        <div class="product-img-container overflow-hidden h-100">
+                            <picture class="h-100">
+                                <source type="image/avif" srcset="./images/products/product-01.avif">
+                                <source type="image/webp" srcset="./images/products/product-01.webp">
+                                <img src="./images/products/product-01.jpg" 
+                                    alt="product 01" 
+                                    class="w-100 h-100 object-fit-cover" 
+                                    loading="lazy" 
+                                    decoding="async">
+                            </picture>
+                        </div>
+                        <div class="product-content p-xxl-4 p-3 text-center">
+                            <h4 class="text-white">Bathroom Tiles</h4>
+                            <p class="mb-0">Ante mus blandit sapien sociosqu per consequat ad.</p>
+                        </div>
+                    </div>
+                    <div class="product position-relative">
+                        <div class="product-img-container overflow-hidden h-100">
+                            <picture class="h-100">
+                                <source type="image/avif" srcset="./images/products/product-02.avif">
+                                <source type="image/webp" srcset="./images/products/product-02.webp">
+                                <img src="./images/products/product-02.jpg" 
+                                    alt="product 02" 
+                                    class="w-100 h-100 object-fit-cover" 
+                                    loading="lazy" 
+                                    decoding="async">
+                            </picture>
+                        </div>
+                        <div class="product-content p-xxl-4 p-3 text-center">
+                            <h4 class="text-white">Marble</h4>
+                            <p class="mb-0">Ante mus blandit sapien sociosqu</p>
+                        </div>
+                    </div>
+                    <div class="product position-relative">
+                        <div class="product-img-container overflow-hidden h-100">
+                            <picture class="h-100">
+                                <source type="image/avif" srcset="./images/products/product-03.avif">
+                                <source type="image/webp" srcset="./images/products/product-03.webp">
+                                <img src="./images/products/product-03.jpg" 
+                                    alt="product 03" 
+                                    class="w-100 h-100 object-fit-cover" 
+                                    loading="lazy" 
+                                    decoding="async">
+                            </picture>
+                        </div>
+                        <div class="product-content p-xxl-4 p-3 text-center">
+                            <h4 class="text-white">Outdoor Flooring</h4>
+                            <p class="mb-0">Ante mus blandit sapien sociosqu per consequat ad.</p>
+                        </div>
+                    </div>
+                    <div class="product position-relative">
+                        <div class="product-img-container overflow-hidden h-100">
+                            <picture class="h-100">
+                                <source type="image/avif" srcset="./images/products/product-04.avif">
+                                <source type="image/webp" srcset="./images/products/product-04.webp">
+                                <img src="./images/products/product-04.jpg" 
+                                    alt="product 04" 
+                                    class="w-100 h-100 object-fit-cover" 
+                                    loading="lazy" 
+                                    decoding="async">
+                            </picture>
+                        </div>
+                        <div class="product-content p-xxl-4 p-3 text-center">
+                            <h4 class="text-white">Kitchen Interior</h4>
+                            <p class="mb-0">Ante mus blandit sapien sociosqu per consequat ad.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-projects pt-0">
+            <div class="container text-center">
+                <h1 class="section-title text-center">Projects</h1>
+                <div class="row">
+                    <div class="col-xl-7 col-md-10 mx-auto">
+                        <p class="section-sub-head text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-xl-3 col-sm-6">
+                        <figure class="project text-center">
+                            <picture>
+                                <source type="image/avif" srcset="./images/projects/project-01.avif">
+                                <source type="image/webp" srcset="./images/projects/project-01.webp">
+                                <img src="./images/projects/project-01.jpg" 
+                                    alt="project 01" 
+                                    class="w-100 h-100 object-fit-cover" 
+                                    loading="lazy" 
+                                    decoding="async">
+                            </picture>
+                            <figcaption class="h4 mb-0 mt-4">Kingfom Tower</figcaption>
+                            <p class="text-black-50">Marble Flooring</p>
+                        </figure>
+                        
+                    </div>
+                    <div class="col-xl-3 col-sm-6">
+                        <figure class="project text-center">
+                            <picture>
+                                <source type="image/avif" srcset="./images/projects/project-02.avif">
+                                <source type="image/webp" srcset="./images/projects/project-02.webp">
+                                <img src="./images/projects/project-02.jpg" 
+                                    alt="project 02" 
+                                    class="w-100 h-100 object-fit-cover" 
+                                    loading="lazy" 
+                                    decoding="async">
+                            </picture>
+                            <figcaption class="h4 mb-0 mt-4">Dubai Mall</figcaption>
+                            <p class="text-black-50">Wood Flooring</p>
+                        </figure>
+                    </div>
+                    <div class="col-xl-3 col-sm-6">
+                        <figure class="project text-center">
+                            <picture>
+                                <source type="image/avif" srcset="./images/projects/project-03.avif">
+                                <source type="image/webp" srcset="./images/projects/project-03.webp">
+                                <img src="./images/projects/project-03.jpg" 
+                                    alt="project 03" 
+                                    class="w-100 h-100 object-fit-cover" 
+                                    loading="lazy" 
+                                    decoding="async">
+                            </picture>
+                            <figcaption class="h4 mb-0 mt-4">King Roard Offices</figcaption>
+                            <p class="text-black-50">Outdoor Flooring</p>
+                        </figure>
+                    </div>
+                    <div class="col-xl-3 col-sm-6">
+                        <figure class="project text-center">
+                            <picture>
+                                <source type="image/avif" srcset="./images/projects/project-04.avif">
+                                <source type="image/webp" srcset="./images/projects/project-04.webp">
+                                <img src="./images/projects/project-04.jpg" 
+                                    alt="project 04" 
+                                    class="w-100 h-100 object-fit-cover" 
+                                    loading="lazy" 
+                                    decoding="async">
+                            </picture>
+                            <figcaption class="h4 mb-0 mt-4">Beach Tower Alupang</figcaption>
+                            <p class="text-black-50">Wood Flooring</p>
+                        </figure>
+                    </div>
+                </div>
+                <button class="btn btn-app-primary text-uppercase mt-4">View All</button>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="row row-gap-4">
+                    <div class="col-xl-4">
+                        <a href="#">
+                            <img src="./images/log-white.svg" alt="logo footer">
+                        </a>
+                        <ul class="list-unstyled d-flex align-items-center gap-4 mt-4">
+                            <li>
+                                <a href="#">
+                                    <img src="./images/fb.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/twitter.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./images/instagram.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-2 col-md-4 col-6 footer-navs">
+                        <h6 class="mb-2">Products</h6>
+                        <ul class="footer-nav-menu list-unstyled">
+                            <li>
+                                <a href="#">Sand Stone</a>
+                            </li>
+                            <li>
+                                <a href="#">Stone</a>
+                            </li>
+                            <li>
+                                <a href="#">Cement</a>
+                            </li>
+                            <li>
+                                <a href="#">Soft Stone</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-2 col-md-4 col-6 footer-navs">
+                        <h6 class="mb-2">Services</h6>
+                        <ul class="footer-nav-menu list-unstyled">
+                            <li>
+                                <a href="#">Measurement Service</a>
+                            </li>
+                            <li>
+                                <a href="#">Product Advice</a>
+                            </li>
+                            <li>
+                                <a href="#">Interior Design</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-4 col-md-4 footer-navs">
+                        <h6 class="mb-2">Services</h6>
+                        <ul class="footer-nav-menu list-unstyled">
+                            <li>
+                                <p class="mb-0">3181 Al Imam Saud Ibn Abdul Aziz Branch Rd,</p>
+                            </li>
+                            <li>
+                                <p class="mb-0">An Nuzhah, Riyadh 12474,</p>
+                            </li>
+                            <li>
+                                <p class="mb-0">Saudi Arabia</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="./js/style.js"></script>
+</body>
+</html>

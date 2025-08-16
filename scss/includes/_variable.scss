@@ -1,0 +1,17 @@
+:root {
+    --primary_color: #111010;
+    --body_color: #000000;
+    --nav_color: #0A0A0A;
+    --global_font: "Montserrat", sans-serif;
+    --global_font_size: 16px;
+    --global_font_weight: 400;
+    --header_height: 70px;
+}
+
+$primaryColor: var(--primary_color);
+$bodyColor: var(--body_color);
+$navColor: var(--nav_color);
+$globalFont: var(--global_font);
+$globalFontSize: var(--global_font_size);
+$globalFontWeight: var(--global_font_weight);
+$headerHeight: var(--header_height);

@@ -1,0 +1,43 @@
+@mixin respond($breakpoint) {
+  @if $breakpoint == 2xs {
+    @media (min-width: 320px) { @content; }
+  } @else if $breakpoint == xs {
+    @media (min-width: 376px) { @content; }
+  }@else if $breakpoint == sm {
+    @media (min-width: 576px) { @content; }
+  } @else if $breakpoint == md {
+    @media (min-width: 768px) { @content; }
+  } @else if $breakpoint == lg {
+    @media (min-width: 992px) { @content; }
+  } @else if $breakpoint == xl {
+    @media (min-width: 1200px) { @content; }
+  } @else if $breakpoint == 2xl {
+    @media (min-width: 1400px) { @content; }
+  } @else if $breakpoint == 3xl {
+    @media (min-width: 1600px) { @content; }
+  } @else if $breakpoint == 4xl {
+    @media (min-width: 1800px) { @content; }
+  }
+}
+
+@mixin respond-max($breakpoint) {
+  @if $breakpoint == xs {
+    @media (max-width: 375px) { @content; }
+  } @else if $breakpoint == sm {
+    @media (max-width: 575px) { @content; }
+  } @else if $breakpoint == sm {
+    @media (max-width: 767px) { @content; }
+  } @else if $breakpoint == md {
+    @media (max-width: 991px) { @content; }
+  } @else if $breakpoint == lg {
+    @media (max-width: 1199px) { @content; }
+  } @else if $breakpoint == xl {
+    @media (max-width: 1399px) { @content; }
+  } @else if $breakpoint == 2xl {
+    @media (max-width: 1599px) { @content; }
+  } @else if $breakpoint == 3xl {
+    @media (max-width: 1799px) { @content; }
+  } @else if $breakpoint == 4xl {
+    @media (max-width: 1999px) { @content; }
+  }
+}
